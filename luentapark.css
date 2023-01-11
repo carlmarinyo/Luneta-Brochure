@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("luneta_park.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+img {
+    height: 846px;
+    width: 1821px;
+}
+
+div {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.1vw #000000;
+	text-transform: uppercase;
+    text-shadow: 2px 5px 5px rgba(127, 127, 127, 0.7);
+}
+
+/*National Museum of Natural History*/
+.text1 img {
+    z-index: 1;
+    opacity: 0;
+    position: absolute;
+    bottom: -210px;
+    right: 550px;
+    width: 450px;
+    height: 300px;
+    transition: all 0.5s;
+}
+
+.text1 img:hover {
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+    bottom: -200px;
+    width: 450px;
+    height: 300px;
+    transform: translate3d(-15px);
+    transition: all 0.5s;
+}
+
+.text1 h1 {
+    position: relative;
+    top: 50px;
+    right: 590px;
+    text-align: center;
+}
+
+/*National Museum Library*/
+.text2 img {
+    z-index: 1;
+    opacity: 0;
+    position: absolute;
+    bottom: -40px;
+    left: 460px;
+    width: 400px;
+    height: 200px;
+    transition: all 0.5s;
+}
+
+.text2 img:hover {
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+    bottom: -25px;
+    width: 400px;
+    height: 200px;
+    transform: translate3d(-15px);
+    transition: all 0.5s;
+}
+
+.text2 h1 {
+    position: relative;
+    bottom: 30px;
+    left: 490px;
+    text-align: center;
+}
+
+/*Relief Map of the Philippine Islands*/
+.text3 img {
+    z-index: 1;
+    opacity: 0;
+    position: absolute;
+    top: 170px;
+    left: 45px;
+    width: 750px;
+    height: 300px;
+    transition: all 0.5s;
+}
+
+.text3 img:hover {
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+    top: 155px;
+    width: 750px;
+    height: 300px;
+    transform: translate3d(-15px);
+    transition: all 0.5s;
+}
+
+.text3 h1 {
+    position: relative;
+    top: 300px;
+    left: 250px;
+    text-align: center;
+}
+
+/*Rizal Park - North*/
+.text4 img {
+    z-index: 1;
+    opacity: 0;
+    position: absolute;
+    top: -25px;
+    right: -125px;
+    width: 500px;
+    height: 200px;
+    transition: all 0.5s;
+}
+
+.text4 img:hover {
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+    top: -40px;
+    width: 500px;
+    height: 200px;
+    transform: translate3d(-15px);
+    transition: all 0.5s;
+}
+
+.text4 h1 {
+    position: relative;
+    top: 60px;
+    left: 50px;
+    text-align: center;
+}
+
+/*Rizal Park*/
+.text5 img {
+    z-index: 1;
+    opacity: 0;
+    position: absolute;
+    bottom: 145px;
+    right: 125px;
+    width: 320px;
+    height: 115px;
+    transition: all 0.5s;
+}
+
+.text5 img:hover {
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+    bottom: 160px;
+    width: 320px;
+    height: 115px;
+    transform: translate3d(-15px);
+    transition: all 0.5s;
+}
+
+.text5 h1 {
+    font-size: 25px;
+    position: relative;
+    bottom: 200px;
+    right: 230px;
+    text-align: center;
+}
